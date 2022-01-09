@@ -8,7 +8,7 @@
       <ul>
         <li><a class="nav-link scrollto {{ Request::segment(1) === '' ? 'active' : null }}" href="/">Home</a></li>
         <li><a class="nav-link scrollto {{ Request::segment(1) === 'profile' ? 'active' : null }}" href="/profile">Profil Usaha</a></li>
-        <li><a class="nav-link scrollto" href="/books">Daftar Barang</a></li>
+        <li><a class="nav-link scrollto {{ Request::segment(1) === 'list' ? 'active' : null }}" href="/list">Daftar Barang</a></li>
         {{-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a href="#">Drop Down 1</a></li>
