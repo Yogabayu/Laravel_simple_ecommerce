@@ -7,7 +7,7 @@
     <nav id="navbar" class="navbar">
       <ul>
         <li><a class="nav-link scrollto {{ Request::segment(1) === '' ? 'active' : null }}" href="/">Home</a></li>
-        <li><a class="nav-link scrollto {{ Request::segment(1) === 'profile' ? 'active' : null }}" href="/profile">Profil Usaha</a></li>
+        <li><a class="nav-link scrollto {{ Request::segment(1) === 'profile' ? 'active' : null }}" href="/profil">Profil Usaha</a></li>
         {{-- <li><a class="nav-link scrollto {{ Request::segment(1) === 'list' ? 'active' : null }}" href="/list">Daftar Barang</a></li> --}}
         <li class="dropdown"><a href="#"><span>Daftar Barang</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
@@ -26,7 +26,7 @@
             <li><a href="/kebersihan">Alat Kebersihan</a></li>
           </ul>
         </li>
-        <li><a class="getstarted scrollto" href="#about">Yuk Mulai</a></li>
+        <li><a class="getstarted scrollto" href="#services">Yuk Mulai</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->

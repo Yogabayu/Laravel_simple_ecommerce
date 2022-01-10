@@ -4,10 +4,11 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Masukkan Barang </h2>
+                <h2>Masukkan Barang </h2>                
+                <a class="btn btn-success" href="/"> Kembali Ke situs</a>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success" href="{{ route('products.create') }}"> Create New Product</a>
+                <a class="btn btn-success" href="{{ route('products.create') }}"> Tambah produk baru</a>
             </div>
         </div>
     </div>

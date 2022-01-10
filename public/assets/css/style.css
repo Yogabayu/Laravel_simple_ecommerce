@@ -1508,6 +1508,7 @@ section {
   background: #fff;
 }
 #footer .footer-top .footer-contact {
+  justify-content: center;
   margin-bottom: 30px;
 }
 #footer .footer-top .footer-contact h3 {

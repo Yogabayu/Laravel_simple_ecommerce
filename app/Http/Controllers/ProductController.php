@@ -18,14 +18,18 @@ class ProductController extends Controller
         return view('app.index');
     }
 
-    public function list()
-    {
-        // $products = DB::table('products')->where('kategori','=','test')->get();
-        $products = DB::table('products')->get();
-  
-        return view('app.product',compact('products'))
-            ->with('i', (request()->input('page', 1) - 1) * 5);
+    public function profil(){
+        return view('app.profile');
     }
+
+    // public function list()
+    // {
+    //     // $products = DB::table('products')->where('kategori','=','test')->get();
+    //     $products = DB::table('products')->get();
+  
+    //     return view('app.product',compact('products'))
+    //         ->with('i', (request()->input('page', 1) - 1) * 5);
+    // }
 
 
     public function index()

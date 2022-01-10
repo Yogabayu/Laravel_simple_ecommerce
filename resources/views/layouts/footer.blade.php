@@ -2,7 +2,7 @@
 <footer id="footer">
   <div class="footer-top">
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-md-center">
 
         <div class="col-lg-3 col-md-6 footer-contact">
           <h3>Berkah Wangi</h3>
@@ -15,7 +15,12 @@
           </p>
         </div>
 
-        
+        <div class="col-lg-3 col-md-6 footer-contact">
+          
+        </div>
+        <div class="col-lg-3 col-md-6 footer-contact">
+          
+        </div>
 
         <div class="col-lg-3 col-md-6 footer-links">
           <h4>Media Sosial</h4>

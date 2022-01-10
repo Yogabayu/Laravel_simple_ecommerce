@@ -19,7 +19,7 @@ use App\Http\Controllers\ProductController;
 
 Route::get('/', [ProductController::class, 'home']); 
 
-Route::get('/list', [ProductController::class, 'list']); 
+Route::get('/profil', [ProductController::class, 'profil']); 
 
 // product
 Route::get('/pengharum', [ProductController::class, 'pengharum']); 
