@@ -780,6 +780,7 @@ section {
   transition: 0.3s;
 }
 .services .icon-box h4 {
+  margin-top: 20px;
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 24px;

@@ -21,6 +21,12 @@ Route::get('/', [ProductController::class, 'home']);
 
 Route::get('/list', [ProductController::class, 'list']); 
 
+// product
+Route::get('/pengharum', [ProductController::class, 'pengharum']); 
+Route::get('/kantor', [ProductController::class, 'kantor']); 
+Route::get('/tisue', [ProductController::class, 'tisue']); 
+Route::get('/kebersihan', [ProductController::class, 'kebersihan']); 
+
 // Route::get('/products', [ProductController::class, 'index']);
 
 Route::resource('products', ProductController::class);

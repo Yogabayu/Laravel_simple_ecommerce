@@ -17,6 +17,7 @@ class ProductController extends Controller
     {
         return view('app.index');
     }
+
     public function list()
     {
         // $products = DB::table('products')->where('kategori','=','test')->get();
@@ -37,6 +38,40 @@ class ProductController extends Controller
             ->with('i', (request()->input('page', 1) - 1) * 5);
     }
    
+    public function pengharum()
+    {
+        $products = DB::table('products')->where('kategori','=','pengharum')->get();
+  
+        return view('app.pengharum',compact('products'))
+            ->with('i', (request()->input('page', 1) - 1) * 5);
+    }
+
+    public function kantor()
+    {
+        $products = DB::table('products')->where('kategori','=','alat_kantor')->get();
+  
+        return view('app.kantor',compact('products'))
+            ->with('i', (request()->input('page', 1) - 1) * 5);
+    }
+
+    public function tisue()
+    {
+        $products = DB::table('products')->where('kategori','=','tisue')->get();
+  
+        return view('app.tisue',compact('products'))
+            ->with('i', (request()->input('page', 1) - 1) * 5);
+    }
+
+    public function kebersihan()
+    {
+        $products = DB::table('products')->where('kategori','=','alat_kesehatan')->get();
+  
+        return view('app.kebersihan',compact('products'))
+            ->with('i', (request()->input('page', 1) - 1) * 5);
+    }
+
+    
+
     /**
      * Show the form for creating a new resource.
      *

@@ -42,13 +42,18 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Kategori:</strong>
-                <textarea class="form-control" style="height:150px" name="kategori" placeholder="Kategori"></textarea>
+                <select id="kategori" name="kategori">
+                    <option value="pengharum">Pengharum Ruangan</option>
+                    <option value="alat_kantor">Alat Kantor</option>
+                    <option value="tisue">Tisue</option>
+                    <option value="alat_kesehatan">Alat Kesehatan</option>
+                  </select>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Satuan:</strong>
-                <textarea class="form-control" style="height:150px" name="satuan" placeholder="Satuan"></textarea>
+                <textarea class="form-control" name="satuan" placeholder="Satuan"></textarea>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">

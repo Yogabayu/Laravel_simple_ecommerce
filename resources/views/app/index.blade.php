@@ -185,37 +185,37 @@
         <div class="row">
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <div class="icon"><i class="bx bx-flag"></i></div>
               <h4><a href="">Pengharum ruangan</a></h4>
               <p>Tersedia berbegai macam pengharum ruangan</p>
-              <a href="/" class="btn-get-started scrollto">Selengkapnya</a>
+              <a href="/pengharum" class="btn-get-started scrollto">Selengkapnya</a>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
+              <div class="icon"><i class="bx bx-briefcase"></i></div>
               <h4><a href="">Alat Perkantoran</a></h4>
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-              <a href="/" class="btn-get-started scrollto">Selengkapnya</a>
+              <a href="/kantor" class="btn-get-started scrollto">Selengkapnya</a>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <div class="icon"><i class="bx bx-droplet"></i></div>
               <h4><a href="">Tisue</a></h4>
               <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-              <a href="/" class="btn-get-started scrollto">Selengkapnya</a>
+              <a href="/tisue" class="btn-get-started scrollto">Selengkapnya</a>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4><a href="">Alat Kebersihan</a></h4>
+              <div class="icon"><i class="bx bx-donate-heart"></i></div>
+              <h4><a href="/kesehatan">Alat Kebersihan</a></h4>
               <p>Tersedia berbagai macam alat kebersiahan mulai dari, hand sanitizer, tempat sampah, sapu, dll</p>
-              <a href="/" class="btn-get-started scrollto">Selengkapnya</a>
+              <a href="/kesehatan" class="btn-get-started scrollto">Selengkapnya</a>
             </div>
           </div>
 
