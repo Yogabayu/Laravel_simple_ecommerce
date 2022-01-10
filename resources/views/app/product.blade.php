@@ -17,7 +17,7 @@
         @foreach ($products as $product)
         <div style="margin: 20px" class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <img src="/image/{{ $product->image }}" width="100px">
+              <img src="/image/{{ $product->image }}">
               <h4><a href="">{{ $product->name }}</a></h4>
               <p>Detail: {{ $product->detail }}</p>
               <p>Harga Satuan: {{ $product->satuan }}</p>
