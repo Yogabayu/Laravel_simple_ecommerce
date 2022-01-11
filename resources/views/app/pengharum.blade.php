@@ -20,14 +20,15 @@
               <img src="/image/{{ $product->image }}">
               <h4><a href="">{{ $product->name }}</a></h4>
               <p><b>Detail:</b> {{ $product->detail }}</p>
-              <p><b>Harga Satuan:</b> Rp.{{ $product->satuan }}</p>
-              <a href="https://wa.me/6285131666675?text=Saya Mau pesan *{{ $product->name }}* dengan jumlah 6" class="btn-get-started scrollto">Pesan Sekarang</a>
+              <p><b>Harga Satuan:</b> Rp.{{ $product->satuan }}</p> 
+              <p><b>Stok Barang:</b> {{ $product->tersedia }}</p>                  
+              <a href="https://wa.me/6285131666675?text=Saya Mau pesan *{{ $product->name }}*, apakah masih tersedia " class="btn-get-started scrollto">Pesan Sekarang</a>              
             </div>
-          </div>
+        </div>
+        
        @endforeach
 
       </div>
-    </div>
-  </section><!-- End Services Section -->
-
+     </div>
+    </section><!-- End Services Section -->
 @endsection

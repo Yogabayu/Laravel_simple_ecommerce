@@ -18,6 +18,7 @@ class CreateProductTable extends Migration
             $table->string('name');
             $table->string('kategori');
             $table->string('satuan');
+            $table->string('tersedia');
             $table->text('detail');
             $table->string('image');
             $table->timestamps();

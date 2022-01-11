@@ -99,6 +99,7 @@ class ProductController extends Controller
             'detail' => 'required',
             'kategori' => 'required',
             'satuan' => 'required',
+            'tersedia' => 'required',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
@@ -153,6 +154,7 @@ class ProductController extends Controller
             'detail' => 'required',
             'kategori' => 'required',
             'satuan' => 'required',
+            'tersedia' => 'required',
         ]);
 
         $input = $request->all();

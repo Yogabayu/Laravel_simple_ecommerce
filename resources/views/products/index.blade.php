@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Masukkan Barang </h2>                
+                <h2>Masukkan Barang Anda</h2>                
                 <a class="btn btn-success" href="/"> Kembali Ke situs</a>
             </div>
             <div class="pull-right">
@@ -25,7 +25,8 @@
             <th>Image</th>
             <th>Name</th>
             <th>Kategori</th>
-            <th>Satuan</th>
+            <th>Harga Satuan</th>
+            <th>Tersedia</th>
             <th>Details</th>
             <th width="280px">Action</th>
         </tr>
@@ -34,9 +35,10 @@
             <td>{{ ++$i }}</td>
             <td><img src="/image/{{ $product->image }}" width="100px"></td>
             <td>{{ $product->name }}</td>
-            <td>{{ $product->detail }}</td>
             <td>{{ $product->kategori }}</td>
-            <td>{{ $product->satuan }}</td>
+            <td>Rp. {{ $product->satuan }}</td>
+            <td>{{ $product->tersedia }}</td>
+            <td>{{ $product->detail }}</td>
             <td>
                 <form action="{{ route('products.destroy',$product->id) }}" method="POST">
    

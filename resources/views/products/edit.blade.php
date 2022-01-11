@@ -38,18 +38,29 @@
                 <div class="form-group">
                     <strong>Detail:</strong>
                     <textarea class="form-control" style="height:150px" name="detail" placeholder="Detail">{{ $product->detail }}</textarea>
-                </div>
+                </div> 
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Kategori:</strong>
-                    <textarea class="form-control" style="height:150px" name="kategori" placeholder="kategori">{{ $product->kategori }}</textarea>
+                    <select id="kategori" name="kategori">
+                        <option value="pengharum">Pengharum Ruangan</option>
+                        <option value="alat_kantor">Alat Kantor</option>
+                        <option value="tisue">Tisue</option>
+                        <option value="alat_kesehatan">Alat Kesehatan</option>
+                      </select>
                 </div>
-            </div>            
+            </div>         
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Satuan:</strong>
-                    <textarea class="form-control" style="height:150px" name="satuan" placeholder="satuan">{{ $product->satuan }}</textarea>
+                    <textarea class="form-control"  name="satuan" placeholder="satuan">{{ $product->satuan }}</textarea>
+                </div>
+            </div>         
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="form-group">
+                    <strong>Tersedia:</strong>
+                    <textarea class="form-control" name="tersedia" placeholder="tersedia">{{ $product->tersedia }}</textarea>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">

@@ -52,8 +52,14 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Satuan:</strong>
+                <strong>Harga Satuan (Rp):</strong>
                 <textarea class="form-control" name="satuan" placeholder="Satuan"></textarea>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Tersedia:</strong>
+                <textarea class="form-control" name="tersedia" placeholder="Tersedia"></textarea>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
